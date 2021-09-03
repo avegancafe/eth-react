@@ -77,8 +77,6 @@ function __generator(thisArg, body) {
     }
 }
 
-console.log('in lib');
-console.log(React__default['default']);
 var Context = React.createContext({
     handleConnect: function () { },
     handleDisconnect: function () { },
