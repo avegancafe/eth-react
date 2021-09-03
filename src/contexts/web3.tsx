@@ -3,9 +3,6 @@ import WalletConnectProvider from '@walletconnect/web3-provider'
 import { ethers } from 'ethers'
 import Web3Modal from 'web3modal'
 
-console.log('in lib')
-console.log(React)
-
 export const Context = createContext({
   handleConnect: () => {},
   handleDisconnect: () => {},
