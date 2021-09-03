@@ -2,9 +2,9 @@
   "name": "eth-react",
   "version": "1.0.0",
   "description": "A library of utilities for interacting with the ethereum blockchain",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "rollup --config --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,20 @@
   "bugs": {
     "url": "https://github.com/keyboard-clacker/eth-react/issues"
   },
-  "homepage": "https://github.com/keyboard-clacker/eth-react#readme"
+  "homepage": "https://github.com/keyboard-clacker/eth-react#readme",
+  "peerDependencies": {
+    "react": "^17"
+  },
+  "dependencies": {
+    "@ethersproject/providers": "^5.4.5",
+    "@walletconnect/web3-provider": "^1.6.5",
+    "ethers": "^5.4.6",
+    "web3modal": "^1.9.4"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.2.5",
+    "@types/react": "^17.0.19",
+    "rollup": "^2.56.3",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
+  }
 }
