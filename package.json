@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/keyboard-clacker/eth-react.git"
   },
+  "prepublish": "",
   "author": "",
   "license": "ISC",
   "bugs": {
